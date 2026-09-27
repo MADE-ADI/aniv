@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4a3548" />
+    <meta name="description" content="A flower and an anniversary letter, just for you." />
+    <title>For You ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="scene">
+      <div class="flower-glow" aria-hidden="true"></div>
+      <div class="flower" role="img" aria-label="A rose growing and blooming">
+      <svg class="intro-rose" viewBox="0 0 320 420" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="introStem" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#89a274"/><stop offset="1" stop-color="#426952"/></linearGradient>
+          <linearGradient id="introBack" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#ffe1d0"/><stop offset=".48" stop-color="#eea5a6"/><stop offset="1" stop-color="#ad5b75"/></linearGradient>
+          <linearGradient id="introSide" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd4c5"/><stop offset=".5" stop-color="#e9939a"/><stop offset="1" stop-color="#af5a76"/></linearGradient>
+          <linearGradient id="introCup" x1="0" y1="0" x2=".3" y2="1"><stop stop-color="#ffd7c6"/><stop offset=".42" stop-color="#eea1a5"/><stop offset="1" stop-color="#b7657b"/></linearGradient>
+          <radialGradient id="introHeart"><stop stop-color="#ffe7d5"/><stop offset=".55" stop-color="#f7b4ad"/><stop offset="1" stop-color="#d0798d"/></radialGradient>
+        </defs>
+        <g class="intro-stem">
+          <path d="M160 390 C153 334 160 278 160 225" fill="none" stroke="url(#introStem)" stroke-width="9" stroke-linecap="round"/>
+          <path class="intro-leaf intro-leaf-left" d="M158 320 C113 310 96 281 94 256 C129 264 155 289 158 320Z" fill="#6f9270"/>
+          <path class="intro-leaf intro-leaf-right" d="M159 291 C176 252 206 241 229 245 C213 274 185 291 159 291Z" fill="#85a17a"/>
+          <path d="M158 320 Q122 283 94 256 M159 291 Q197 257 229 245" fill="none" stroke="#bed0a3" stroke-width="2" opacity=".7"/>
+        </g>
+        <g class="intro-flower">
+          <path d="M139 239 Q119 234 109 219 Q132 224 159 236 Q188 223 211 219 Q200 236 181 240Z" fill="#456e58"/>
+          <g class="intro-outer-top">
+            <path d="M160 199 C135 184 111 157 117 126 C121 105 139 91 155 103 C163 77 187 76 200 98 C219 93 231 115 225 136 C217 169 190 189 160 199Z" fill="url(#introBack)"/>
+            <path d="M125 131 C135 110 149 112 158 125 M164 112 C174 92 193 96 198 111 M205 117 C219 116 222 129 219 141" fill="none" stroke="#ffe1d1" stroke-width="3" stroke-linecap="round" opacity=".66"/>
+          </g>
+          <g class="intro-outer-left">
+            <path d="M163 223 C112 231 78 204 75 170 C72 142 87 123 112 126 C104 143 112 157 129 161 C141 164 155 172 163 188Z" fill="url(#introSide)"/>
+            <path d="M82 165 C84 145 93 136 106 136 M84 174 C95 200 120 215 148 214" fill="none" stroke="#ffe1d1" stroke-width="3.5" stroke-linecap="round" opacity=".65"/>
+          </g>
+          <g class="intro-outer-right">
+            <path d="M157 224 C211 231 247 201 246 163 C245 139 231 125 208 128 C217 145 208 160 190 164 C176 168 164 178 157 190Z" fill="url(#introSide)"/>
+            <path d="M235 150 C226 139 216 137 209 140 M237 176 C224 204 200 217 173 215" fill="none" stroke="#ffe6d4" stroke-width="3.5" stroke-linecap="round" opacity=".62"/>
+          </g>
+          <path class="intro-cup" d="M91 185 C99 224 128 249 160 251 C193 250 223 226 230 187 C207 203 187 212 160 216 C131 211 111 202 91 185Z" fill="url(#introCup)"/>
+          <path d="M99 201 C111 225 131 239 155 243" fill="none" stroke="#ffe2d2" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+          <path d="M221 203 C207 228 190 239 173 242" fill="none" stroke="#ac627a" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+          <g class="intro-inner-left">
+            <path d="M161 216 C131 204 117 181 125 158 C131 139 149 132 164 141 C150 148 145 163 150 178 C151 191 159 204 161 216Z" fill="url(#introHeart)"/>
+            <path d="M131 159 C139 143 151 141 162 149" fill="none" stroke="#ffe5d3" stroke-width="3" stroke-linecap="round"/>
+          </g>
+          <g class="intro-inner-right">
+            <path d="M159 216 C191 205 205 182 196 157 C190 139 172 132 157 143 C173 149 179 163 174 179 C171 195 162 205 159 216Z" fill="url(#introHeart)"/>
+            <path d="M190 158 C182 144 170 142 160 150" fill="none" stroke="#ffe2d2" stroke-width="3" stroke-linecap="round"/>
+          </g>
+          <path d="M141 181 C139 165 150 151 165 152 C183 153 190 170 179 183 C169 194 153 190 152 178 C151 168 162 164 169 171" fill="none" stroke="#b9627b" stroke-width="6" stroke-linecap="round"/>
+          <path class="intro-core" d="M145 177 C143 164 154 157 164 159 C177 162 180 175 172 181 C166 185 157 181 158 175 C160 169 167 168 169 173" fill="none" stroke="#ffe0cd" stroke-width="3" stroke-linecap="round"/>
+          <path d="M133 239 Q160 258 187 239" fill="none" stroke="#53795e" stroke-width="8" stroke-linecap="round"/>
+        </g>
+      </svg>
+      </div>
+      <button class="open-button" id="open-letter" type="button" aria-haspopup="dialog" aria-controls="letter-dialog">Open the letter <span aria-hidden="true">↗</span></button>
+    </main>
+
+    <div class="letter-dialog" id="letter-dialog" role="dialog" aria-modal="true" aria-label="Anniversary letter" hidden>
+      <button class="close-button" id="close-letter" type="button" aria-label="Close the letter">×</button>
+      <div class="dialog-content">
+        <div class="envelope" aria-hidden="true">
+          <div class="envelope-back"></div>
+          <div class="envelope-paper"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-seal">♡</div>
+        </div>
+        <article class="letter-content" id="letter-content" tabindex="-1">
+          <p>Happy 2nd anniversary, my love.</p>
+          <p>These two years with you have meant more to me than words can say. Thank you for loving me, staying by my side, and facing every challenge with me. I’m grateful for every moment we’ve shared.</p>
+          <p>I’m sorry if this anniversary hasn’t been what you hoped for. I wish I could have made this day feel as special as you are to me. Please know that even when things don’t go as planned, my love for you is as strong as ever.</p>
+          <p>I believe there are many beautiful days ahead of us, and I want to keep growing and facing life with you.</p>
+          <p>I love you more than words could ever express.</p>
+          <p>With all the love in my heart,<br />Kawi</p>
+        </article>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
